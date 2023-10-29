@@ -19,7 +19,7 @@ public class Timer : MonoBehaviour
     {
         currentTime = startingTime;
         timer.text = currentTime.ToString();
-        timer.fontSize = 30;
+        timer.fontSize = 150;
     }
 
     // Update is called once per frame
