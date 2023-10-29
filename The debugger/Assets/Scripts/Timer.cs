@@ -73,7 +73,7 @@ public class Timer : MonoBehaviour
         if (((int)Timer.currentTime % 5 == 0) && (!isShowing))
         {
             //collider.GetComponent<PlayerController>().enabled = false;
-            QuestionMgr.Instance.Show(); //to call the popup questions
+            //QuestionMgr.Instance.Show(); //to call the popup questions
             isShowing = true;
         }
 

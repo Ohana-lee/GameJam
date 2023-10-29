@@ -21,7 +21,7 @@ public class BugMovement : MonoBehaviour
         //spriteRenderer = GetComponent<spriteRenderer>();
         //spriteRenderer.sprite = Buggy;
         transform.position = new Vector3(Random.Range(minTras, maxTras), transform.position.y, transform.position.z);
-        force = new Vector3(Random.Range(-100, 100), Random.Range(15, 25), 0);
+        force = new Vector3(Random.Range(-100, 100), Random.Range(150, 250), 0);
         rb.AddForce(force);
         //StartCoroutine(BugSpawn());
     }
@@ -42,11 +42,13 @@ public class BugMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        Destroy(this.gameObject, 5);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.tag == "Wall") { Destroy(this.gameObject); }
+        if (collision.gameObject.CompareTag("Wall")) { Destroy(this.gameObject);
+            Debug.Log("Destroy bug");
+        }
     }
 }

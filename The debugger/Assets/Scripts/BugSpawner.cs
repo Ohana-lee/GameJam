@@ -21,7 +21,10 @@ public class BugSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (Timer.currentTime < 0)
+        {
+            Destroy(this.gameObject);
+        }
     }
 
     void Spawn()

@@ -372,7 +372,7 @@
 "Assets/Scripts/BugMovement.cs"
 "Assets/Scripts/BugMovement2.cs"
 "Assets/Scripts/BugSpawner.cs"
-"Assets/Scripts/ClilckBug.cs"
+"Assets/Scripts/ClickBug.cs"
 "Assets/Scripts/EventManager.cs"
 "Assets/Scripts/PanelTrigger.cs"
 "Assets/Scripts/PlayerController.cs"
