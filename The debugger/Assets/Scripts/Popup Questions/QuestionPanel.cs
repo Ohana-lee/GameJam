@@ -44,12 +44,7 @@ public class QuestionPanel : MonoBehaviour
 
     public int BossQuestionCount;
     public int CurrentIndex;
-
-    /*public void Construct(bool _haveCard)
-    {
-        haveCard = _haveCard;
-        // haveCard = _haveCard;
-    }*/
+    public Timer timer;
 
     public void Awake()
     {
@@ -67,69 +62,23 @@ public class QuestionPanel : MonoBehaviour
                     currentSelect = index;
                     canvasGroup.interactable = false;
                     text_tip.gameObject.SetActive(true);
-                    //text_tip.text = index == (int)right ? "Select Right!" : "Select Wrong! Correct: <color=green>" + right.ToString()+"</color>";
-                    /*if (isBossLevel)
+                    text_tip.text = index == (int)right ? "Select Right!" : "Select Wrong! Correct: <color=green>" + right.ToString()+"</color>";
+                    if (index == (int)right)
                     {
-                        //for (i = 0; i < noOfQuestions; i++)
-                        //{
-                            Debug.Log("Hitting boss");
-                            if (index == (int)right)
-                            {
-                                score = score + 1;
-                                text_tip.text = "Correct!";
-                                Debug.Log("score: " + score);
-                            }
-                            else
-                            {
-                                //score = score;
-                                text_tip.text = "Incorrect! Correct: <color=white>" + right.ToString() + "</color>";
-                                Debug.Log("score: " + score);
-                            }
-                            //throws another question
-                        //}
-                        /*if (CurrentIndex < BossQuestionCount)
-                        {
-                            StartCoroutine(Next());
-                        }
-                        else
-                        {*/
-                            StartCoroutine(_Close());
-                        //}
-
-                    //}
-                    //else
-                   // {
-                        if (index == (int)right)
-                        {
-                            text_tip.text = "Correct!";
-                            /*enemyInQuestion = GameObject.Find("mc").GetComponent<PlayerController>().lastInteracted;
-                            enemy = GameObject.Find(enemyInQuestion);
-                            switch (enemy.tag)
-                            {
-                                case "Robot":
-                                    enemy.GetComponentInChildren<EnemyBehavior>().enabled = false;
-                                    enemy.GetComponentInChildren<DrawRobotCollider>().ToggleCollider();
-                                    break;
-                                case "Cctv":
-                                    enemy.GetComponentInChildren<CCTVBehavior>().enabled = false;
-                                    enemy.GetComponentInChildren<DrawCCTVCollider>().ToggleCollider();
-                                    break;
-                                /*case "Boss":
-                                    Debug.Log("hitting boss");
-                                    break;*/
-                            //}
-                            Timer.currentTime += 10f;
-                            isCorrect = true;
-                        }
-                        else
-                        {
-                            text_tip.text = "Incorrect! Correct: <color=white>" + right.ToString() + "</color>";
-                            // answer is incorrect we want the robot to keep functioning... coming soon (maybe)
-                            Timer.currentTime -= 10f;
-                            isCorrect = false;
-                        }
-                        StartCoroutine(_Close());
-                    //}
+                        text_tip.text = "Correct!";
+                        //update the TO-DO List
+                        //Timer.currentTime += 10f;
+                        isCorrect = true;
+                    }
+                    else
+                    {
+                        text_tip.text = "Incorrect! Correct: <color=white>" + right.ToString() + "</color>";
+                        // answer is incorrect we want the robot to keep functioning... coming soon (maybe)
+                        Timer.currentTime -= 10f;
+                        isCorrect = false;
+                    }
+                    StartCoroutine(_Close());
+                    
 
                 }
             });
@@ -177,7 +126,8 @@ public class QuestionPanel : MonoBehaviour
             {
                 OhNoDialogue.SetActive(true);
             }*/
-            GameObject.FindObjectOfType<PlayerController>().enabled = true;
+            //GameObject.FindObjectOfType<PlayerController>().enabled = true;
+        timer.isShowing = false;
         //}
 
 
