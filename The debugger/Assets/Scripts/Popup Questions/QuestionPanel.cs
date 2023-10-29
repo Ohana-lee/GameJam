@@ -62,30 +62,30 @@ public class QuestionPanel : MonoBehaviour
                     currentSelect = index;
                     canvasGroup.interactable = false;
                     text_tip.gameObject.SetActive(true);
-                    text_tip.text = index == (int)right ? "Select Right!" : "Select Wrong! Correct: <color=green>" + right.ToString()+"</color>";
+                    text_tip.text = index == (int)right ? "Select Right!" : "Select Wrong! Correct: <color=black>" + right.ToString()+"</color>";
                     if (index == (int)right)
                     {
-                        text_tip.text = "Correct!";
+                        text_tip.text = " <color=green> Correct! </color>";
                         //update the TO-DO List
                         //Timer.currentTime += 10f;
                         isCorrect = true;
                     }
                     else
                     {
-                        text_tip.text = "Incorrect! Correct: <color=white>" + right.ToString() + "</color>";
+                        text_tip.text = "Incorrect! Correct: <color=black>" + right.ToString() + "</color>";
                         // answer is incorrect we want the robot to keep functioning... coming soon (maybe)
                         Timer.currentTime -= 2f;
                         isCorrect = false;
                     }
                     StartCoroutine(_Close());
-                    
+
 
                 }
             });
         }
     }
 
-    
+
     /*IEnumerator Next()
     {
         CurrentIndex++;
@@ -97,7 +97,7 @@ public class QuestionPanel : MonoBehaviour
         yield return new WaitForSeconds(2);
         text_tip.gameObject.SetActive(false);
         gameObject.SetActive(false);
-        
+
 
         /*if (isBossLevel)
         {
