@@ -370,6 +370,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/blinkingcursor.cs"
 "Assets/Scripts/BugMovement.cs"
+"Assets/Scripts/BugMovement2.cs"
 "Assets/Scripts/BugSpawner.cs"
 "Assets/Scripts/ClilckBug.cs"
 "Assets/Scripts/EventManager.cs"
