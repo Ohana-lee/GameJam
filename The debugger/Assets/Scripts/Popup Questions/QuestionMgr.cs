@@ -35,8 +35,8 @@ public class QuestionMgr : MonoBehaviour
     public QuestionItem GetOneQuetion()
     {
         int index = Random.Range(0, QuestionItems.Count);
-        Debug.Log("index = " + index);
-        Debug.Log("number of questions: " + QuestionItems.Count);
+       // Debug.Log("index = " + index);
+        //Debug.Log("number of questions: " + QuestionItems.Count);
         QuestionItem item = QuestionItems[index];
         QuestionItems.Remove(item);
         QuestionMap.Remove(index);

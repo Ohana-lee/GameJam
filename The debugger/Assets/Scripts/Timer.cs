@@ -69,7 +69,7 @@ public class Timer : MonoBehaviour
             }
         }
 
-        Debug.Log("current time " + (int)Timer.currentTime);
+        
         if (((int)Timer.currentTime % 5 == 0) && (!isShowing))
         {
             //collider.GetComponent<PlayerController>().enabled = false;
