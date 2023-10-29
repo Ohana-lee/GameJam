@@ -801,6 +801,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1886429450}
     m_Modifications:
+    - target: {fileID: 3146456697209735770, guid: cfa99a089045f924183edcf5caa39a77, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 5f8d4eb1abbe74ea1b27cadd01cfdae8, type: 3}
+    - target: {fileID: 3146456697380996975, guid: cfa99a089045f924183edcf5caa39a77, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146456697380996975, guid: cfa99a089045f924183edcf5caa39a77, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146456697380996975, guid: cfa99a089045f924183edcf5caa39a77, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146456697380996975, guid: cfa99a089045f924183edcf5caa39a77, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146456697380996975, guid: cfa99a089045f924183edcf5caa39a77, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 5f8d4eb1abbe74ea1b27cadd01cfdae8, type: 3}
+    - target: {fileID: 3146456697420246670, guid: cfa99a089045f924183edcf5caa39a77, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146456697420246670, guid: cfa99a089045f924183edcf5caa39a77, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 5f8d4eb1abbe74ea1b27cadd01cfdae8, type: 3}
+    - target: {fileID: 3146456698349992359, guid: cfa99a089045f924183edcf5caa39a77, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 5f8d4eb1abbe74ea1b27cadd01cfdae8, type: 3}
     - target: {fileID: 3146456698702370701, guid: cfa99a089045f924183edcf5caa39a77, type: 3}
       propertyPath: m_Name
       value: QuestionPanel
@@ -893,6 +929,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3146456698719747435, guid: cfa99a089045f924183edcf5caa39a77, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 5f8d4eb1abbe74ea1b27cadd01cfdae8, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfa99a089045f924183edcf5caa39a77, type: 3}
 --- !u!1001 &1319703693

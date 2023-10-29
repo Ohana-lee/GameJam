@@ -74,7 +74,7 @@ public class QuestionPanel : MonoBehaviour
                     {
                         text_tip.text = "Incorrect! Correct: <color=white>" + right.ToString() + "</color>";
                         // answer is incorrect we want the robot to keep functioning... coming soon (maybe)
-                        Timer.currentTime -= 10f;
+                        Timer.currentTime -= 2f;
                         isCorrect = false;
                     }
                     StartCoroutine(_Close());
