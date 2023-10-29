@@ -6,6 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
+    /*public void Construct(bool _hasShow, bool _playerInRange)
+    {
+        isShowing = _isShowing;
+    }*/
+
     public TextMeshPro timer;
     [SerializeField] public float startingTime = 10f;
     public static float currentTime = 0f;
@@ -13,6 +18,7 @@ public class Timer : MonoBehaviour
     [SerializeField] public Color32 midColour = new Color32(255, 92, 0, 255); //default orange
     [SerializeField] public Color32 endColour = new Color32(255, 0, 35, 255); //default red
     private Color32 timerColour;
+    public bool isShowing;
 
     // Start is called before the first frame update
     void Start()
@@ -63,13 +69,21 @@ public class Timer : MonoBehaviour
             }
         }
 
+        Debug.Log("current time " + (int)Timer.currentTime);
+        if (((int)Timer.currentTime % 5 == 0) && (!isShowing))
+        {
+            //collider.GetComponent<PlayerController>().enabled = false;
+            QuestionMgr.Instance.Show(); //to call the popup questions
+            isShowing = true;
+        }
+
         timer.color = timerColour;
         currentTime -= 1 * Time.deltaTime;
         timer.text = ((int)currentTime).ToString();
         if (currentTime <= 0)
         {
             // load game over scene
-            SceneManager.LoadScene("Game Over");
+            //SceneManager.LoadScene("Game Over");
         }
     }
 }

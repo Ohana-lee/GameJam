@@ -13,24 +13,24 @@ MonoBehaviour:
   m_Name: QuestionsData
   m_EditorClassIdentifier: 
   QuestionItems:
-  - Title: 'One of the features of the cloud is: '
-    OptionA: On-demand self-service
-    OptionB: Ubiquitous network acces
-    OptionC: Resource pooling
-    OptionD: ' Fast elastic expansion'
-    Right: 1
-  - Title: 'For public edge nodes, which of the following is true: '
-    OptionA: Small-sized data centres, self-owned equipment rooms.
-    OptionB: Large data centre, public cloud room.
-    OptionC: Large data centre, private cloud room.
-    OptionD: Large data, the city and below the own computer room.
+  - Title: Error! What is wrong? printf("Hello World")
+    OptionA: Missing identifier ";"
+    OptionB: Should be print instead of printf
+    OptionC: Quotations are not needed
+    OptionD: Brackets are not needed
     Right: 0
-  - Title: 'For the public edges, can the edge connection network element AND edge cloud can be placed in the same equipment room'
-    OptionA: No, no
-    OptionB: No, yes
-    OptionC: Yes, yes
-    OptionD: Yes, no
-    Right: 2
+  - Title: Error! What is wrong? list[i] = list[i] + float;
+    OptionA: types incompatible
+    OptionB: item in list is not a number
+    OptionC: overflow
+    OptionD: I don't know
+    Right: 0
+  - Title: 'Error! '
+    OptionA: What again?
+    OptionB: Ah shit here we go again.
+    OptionC: Solve it.
+    OptionD: I'm quitting this job.
+    Right: 3
   - Title: "Which of the following includes customized servers \xB7 New data centres:"
     OptionA: IT Infrastructure
     OptionB: Resource Pool Capability
@@ -50,8 +50,8 @@ MonoBehaviour:
     OptionC: Interval layer
     OptionD: The process layer
     Right: 3
-  - Title: "Which of the following is false about the narrow definition of AI"
-    OptionA: "Narrow AI addresses very focused tasks based on common knowledge."
+  - Title: Which of the following is false about the narrow definition of AI
+    OptionA: Narrow AI addresses very focused tasks based on common knowledge.
     OptionB: Narrow AI is scaling very quickly in the consumer world.
     OptionC: Narrow AI can transfer its knowledge to different sorts of problems.
     OptionD: Narrow AI is often used to solve specific, well-defined tasks.
@@ -120,8 +120,8 @@ MonoBehaviour:
     OptionA: Promotes continuous improvement through the automation of best practices.
     OptionB: Provides customizable reporting and dashboards.
     OptionC: An industry standard framework for helping organizations scale agile.
-    OptionD: Supports full impact assessment and management from requirements
-      through testing.
+    OptionD: Supports full impact assessment and management from requirements through
+      testing.
     Right: 2
   - Title: Which of the following is using data methods to study science.
     OptionA: Business intelligence
@@ -142,8 +142,9 @@ MonoBehaviour:
     OptionD: Statistical
     Right: 0
   - Title: Which of the following is not true about data science.
-    OptionA: "Extracting actionable insights from volumes of data collected by orgs."
-    OptionB: Encompasses preparing data for analysis and processing and presenting the results.
+    OptionA: Extracting actionable insights from volumes of data collected by orgs.
+    OptionB: Encompasses preparing data for analysis and processing and presenting
+      the results.
     OptionC: No need to write applications that automate data processing and calculations.
     OptionD: Massive amounts of data is being produced globally.
     Right: 2
