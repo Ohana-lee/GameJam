@@ -31,127 +31,99 @@ MonoBehaviour:
     OptionC: Solve it.
     OptionD: I'm quitting this job.
     Right: 3
-  - Title: "Which of the following includes customized servers \xB7 New data centres:"
-    OptionA: IT Infrastructure
-    OptionB: Resource Pool Capability
-    OptionC: Big data capability
-    OptionD: Big data analysis services
+  - Title: How to print "Hello World!" in Haskell?
+    OptionA: main = putStrLn "Hello World"
+    OptionB: print('Hello World');
+    OptionC: console.lof 'Hello World'
+    OptionD: std::cout << "Hello World";
     Right: 0
-  - Title: 'Which of the following options allows an enterprise to build its own
-      private cloud and use public cloud resources at the same time:'
-    OptionA: Public clouds
-    OptionB: Private clouds
-    OptionC: A hybrid cloud
-    OptionD: Private cloud
+  - Title: RGB STAND FOR?!
+    OptionA: rhino goblin babe
+    OptionB: rolling green bench
+    OptionC: red green blue
+    OptionD: red grey black
     Right: 3
-  - Title: 'Intelligent terminal is the key device for which of the following:'
-    OptionA: station level
-    OptionB: The network layer
-    OptionC: Interval layer
-    OptionD: The process layer
+  - Title: When you know how to code which jobs can you pursue?
+    OptionA: farmer
+    OptionB: doctor
+    OptionC: artist
+    OptionD: all of the above
     Right: 3
-  - Title: Which of the following is false about the narrow definition of AI
-    OptionA: Narrow AI addresses very focused tasks based on common knowledge.
-    OptionB: Narrow AI is scaling very quickly in the consumer world.
-    OptionC: Narrow AI can transfer its knowledge to different sorts of problems.
-    OptionD: Narrow AI is often used to solve specific, well-defined tasks.
-    Right: 3
-  - Title: 'Intelligent information processing refers to:'
-    OptionA: Using AI information technology to process information
-    OptionB: Processing data with Excel spreadsheets
-    OptionC: Flash animation
-    OptionD: The computer game
-    Right: 0
-  - Title: "What cannot natural language processing(NLP) be applied to\uFF1A"
-    OptionA: Social Media Analysis
-    OptionB: Business Intelligence for Enterprise
-    OptionC: Object Recognition
-    OptionD: Content Marketing and Recommendation
+  - Title: Which is not required to code?
+    OptionA: FOOD
+    OptionB: OXYGEN
+    OptionC: 10+ HRS SLEEP
+    OptionD: COMPUTER
     Right: 2
+  - Title: Who invented the term debug?
+    OptionA: Steve Job
+    OptionB: Admiral Grace Hopper
+    OptionC: Elon Musk
+    OptionD: Guido van Rossum
+    Right: 1
+  - Title: Which mode  better for eyes?
+    OptionA: Dark Mode
+    OptionB: Neon Mode
+    OptionC: RGB Mode
+    OptionD: Light Mode
+    Right: 0
   - Title: 'Which of the following does not apply AI:'
     OptionA: Type the text using a handwritten tablet
     OptionB: "Video chat\uFF08e.g. FaceTime\uFF09"
     OptionC: Play chess with a computer
     OptionD: OCR text recognition
     Right: 1
-  - Title: Which of the following is not a type of automation?
-    OptionA: Basic Automation
-    OptionB: Engineer Automation
-    OptionC: Integration Automation
-    OptionD: Process Automation
-    Right: 1
-  - Title: "Which of the following is not a potential advantage of automation\uFF1A"
-    OptionA: Decision Processing, Content Management
-    OptionB: Document Processing, Workflow Automation
-    OptionC: Content Management, Decision Management
-    OptionD: Document Management, Process Mapping
+  - Title: Why debugging?
+    OptionA: to make code runs
+    OptionB: Love bugs
+    OptionC: released bugs and hug them <3
+    OptionD: to spend time more coding
     Right: 0
-  - Title: 'Which of the following describes the Artificial Intelligence Automation:'
-    OptionA: Takes simple, rudimentary tasks and automates them.
-    OptionB: Machines can learn and make decisions based on past situations.
-    OptionC: Machines mimic human tasks.
-    OptionD: Manage business processes for uniformity and transparency.
-    Right: 1
-  - Title: 'Edge linked nets/edge connection network elements can be cloud hosted
-      by what devices:'
-    OptionA: Public clouds
-    OptionB: The network cloud
-    OptionC: Private clouds
-    OptionD: IT clouds
-    Right: 1
-  - Title: IBM Engineering Life cycle Management (ELM) is the most comprehensive
-      solution on the market for system and software development. It covers the key
-      disciplines of the engineering life cycle. So about the ELM, which of the following
-      is not included?
-    OptionA: Tests planning and execution
-    OptionB: Workflow management
-    OptionC: Requirements management
-    OptionD: None of them above
+  - Title: why everyone love programming?
+    OptionA: problem solving
+    OptionB: MONEY!
+    OptionC: idk man ... maybe don't like socialising?
+    OptionD: 'all of it above '
     Right: 3
-  - Title: Which of the following are not of the key features of IBM Engineering
-      Life cycle Management?
-    OptionA: Supports implementation of industry standards and rules into development.
-    OptionB: Full lifecycle traceability of all requirements.
-    OptionC: Supports reuse of requirements.
-    OptionD: Provides customizable reporting and dashboards
-    Right: 0
-  - Title: Which of the following is true about the description of Scale Agile Framework
-      (SAFe) project templates?
-    OptionA: Promotes continuous improvement through the automation of best practices.
-    OptionB: Provides customizable reporting and dashboards.
-    OptionC: An industry standard framework for helping organizations scale agile.
-    OptionD: Supports full impact assessment and management from requirements through
-      testing.
-    Right: 2
-  - Title: Which of the following is using data methods to study science.
-    OptionA: Business intelligence
-    OptionB: Human Genome Project
-    OptionC: "Kepler\u2019s three laws"
-    OptionD: Digital image processing
+  - Title: What AI for CS stand for?
+    OptionA: Adobe Ilustrator
+    OptionB: Artificial Interligence
+    OptionC: Art Icon
+    OptionD: Apple inlove
     Right: 1
-  - Title: Which of the following is the feature of data science.
-    OptionA: Value
-    OptionB: Veracity
-    OptionC: Variety
-    OptionD: All of them above
-    Right: 3
-  - Title: Which of the following aspects belong to data science.
-    OptionA: Study the data in a scientific way
-    OptionB: Bio informatics
-    OptionC: Artificial Intelligence
-    OptionD: Statistical
-    Right: 0
-  - Title: Which of the following is not true about data science.
-    OptionA: Extracting actionable insights from volumes of data collected by orgs.
-    OptionB: Encompasses preparing data for analysis and processing and presenting
-      the results.
-    OptionC: No need to write applications that automate data processing and calculations.
-    OptionD: Massive amounts of data is being produced globally.
+  - Title: what .go file stand for?
+    OptionA: Goblin
+    OptionB: Google
+    OptionC: Golang
+    OptionD: Greyhound
     Right: 2
-  - Title: Which of following is true about the broad characteristics of data.
-    OptionA: "Variety\_- What types of data are you working with and are they (un)structured"
-    OptionB: Veracity - Having a sense of the amount of data which needs to be processed.
-    OptionC: Velocity - Not all data holds equal weight for a given tasks, data analysts
-      need to able to filter out the noisy data to find what they are looking for.
-    OptionD: Value - How quickly is the data being generated.
-    Right: 0
+  - Title: Who doesn't love implement "Game of Life?!"
+    OptionA: Professor
+    OptionB: No one.
+    OptionC: 'you '
+    OptionD: debugger
+    Right: 1
+  - Title: What name the application called "Twitter" had changed to?
+    OptionA: Jib Jib
+    OptionB: Blue Bird
+    OptionC: Tweety
+    OptionD: X
+    Right: 3
+  - Title: Which Genre would fit for programming
+    OptionA: 24 hours brown noise
+    OptionB: sorting algorithms sounds
+    OptionC: lofi
+    OptionD: Heavy Metal!!!!!!
+    Right: 1
+  - Title: Can Programmer fixed printer?
+    OptionA: ABSOLUTELY
+    OptionB: idk will try?
+    OptionC: not really...
+    OptionD: erm ok?
+    Right: 1
+  - Title: Which position suit for coding?
+    OptionA: sit straight 90 degrees
+    OptionB: jumping and coding
+    OptionC: eye-closed
+    OptionD: anything as long as you can type
+    Right: 3
