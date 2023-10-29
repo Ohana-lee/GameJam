@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 2942481580772334613}
   - component: {fileID: 4906384081725348634}
   - component: {fileID: 752436370064779184}
+  - component: {fileID: 676062565972405373}
+  - component: {fileID: 1792030861490942963}
   m_Layer: 0
   m_Name: IMG_0829
   m_TagString: Untagged
@@ -133,6 +135,34 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 10.225925, y: 12.197447}
   m_EdgeRadius: 0
+--- !u!114 &676062565972405373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4030957610211752892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b25004eb782734faff496e835b11f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Buggy: {fileID: 0}
+  minTras: -8
+  maxTras: 9
+  force: {x: 0, y: 0, z: 0}
+--- !u!114 &1792030861490942963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4030957610211752892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b92c0550f9ba848bf70e13a4df0bab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8419974477532271918
 GameObject:
   m_ObjectHideFlags: 0
@@ -228,7 +258,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92b92c0550f9ba848bf70e13a4df0bab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventManager: {fileID: 0}
 --- !u!114 &7828729594810105563
 MonoBehaviour:
   m_ObjectHideFlags: 0
