@@ -1,5 +1,2 @@
-The[[:space:]]debugger/** filter=lfs diff=lfs merge=lfs -text
-*.gitkeep -filter=lfs -diff=lfs -merge=lfs -text
-.gitattributes -filter=lfs -diff=lfs -merge=lfs -text
-*.yml -filter=lfs -diff=lfs -merge=lfs -text
-The[[:space:]]debugger/Library/PackageCache/com.unity.burst@1.6.6/.Runtime/hostmac/lld filter=lfs diff=lfs merge=lfs -text
+TheDebugger/** filter=lfs diff=lfs merge=lfs -text
+TheDebugger/** filter=lfs diff=lfs merge=lfs -text
