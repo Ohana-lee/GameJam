@@ -1,5 +1,13 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
+<<<<<<< HEAD
+<<<<<<< HEAD
+- path: Assets/Scenes/cutscene.unity
+=======
+- path: Assets/Scenes/credit.unity
+>>>>>>> cb09f3a94a0aac9445352fb51b7efc439ed6d44a
+=======
+- path: Assets/Scenes/credit.unity
+>>>>>>> cb09f3a94a0aac9445352fb51b7efc439ed6d44a
   isLoaded: 1
   isActive: 1
   isSubScene: 0

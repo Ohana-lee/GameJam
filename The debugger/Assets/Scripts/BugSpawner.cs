@@ -6,10 +6,15 @@ public class BugSpawner : MonoBehaviour
 {
     [SerializeField] GameObject buggy;
     [SerializeField] Timer timer;
+    public GameObject Desktop;
+    public Camera camera;
     public AudioSource audioSource;
     public AudioClip ErrorMusic;
+    public AudioClip GlitchMusic;
     public float volume;
     public GameObject bug;
+    List<GameObject> list = new List<GameObject>();
+    private int numberOfBugs;
     //private int i = 6;
 
 
@@ -22,13 +27,40 @@ public class BugSpawner : MonoBehaviour
         //Debug.Log("Are you ever here?");
         InvokeRepeating("SpawnOrNot", 0.0f, 0.6f);
         Spawn();
+        
         //}
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        float intensity, fIntensity, cIntensity;
+        intensity = Random.Range(0, 1);
+        fIntensity = Random.Range(0, 1);
+        cIntensity = Random.Range(0, 1);
+        int n = Random.Range(0, 37);
+        if (n%19 == 0)
+        {
+            camera.enabled = true;
+            //audioSource.PlayOneShot(GlitchMusic, volume);
+        }
+        else
+        {
+            camera.enabled = false;
+        }
+        if ( (numberOfBugs > 8))
+        {
+            //Desktop.GetComponent<GlitchEffect>().intensity = intensity;
+            //Desktop.GetComponent<GlitchEffect>().flipIntensity = fIntensity;
+            //Desktop.GetComponent<GlitchEffect>().colorIntensity = cIntensity;
+            //Desktop.GetComponent<Camera>().SetActive(true);
+            
+            camera.enabled = true;
+        }
+        else
+        {
+            camera.enabled = false;
+        }
 
     }
 
@@ -52,13 +84,17 @@ public class BugSpawner : MonoBehaviour
         else if ((Timer.currentTime > 30) && (randomNumber % 3 == 0)) { Spawn(); }
         else if ((Timer.currentTime > 4) && (randomNumber % 3 == 0)) { Spawn(); }
         else if ((Timer.currentTime > 3) && (randomNumber % 1 == 0)) { Spawn(); }
-        Debug.Log("randomNumber = " + randomNumber);
+        //Debug.Log("randomNumber = " + randomNumber);
     }
 
     void Spawn()
     {
-        //Debug.Log("Are you ever here?");
-        bug = Instantiate(buggy, transform.position, transform.rotation);
-        audioSource.PlayOneShot(ErrorMusic, volume);
+        
+        list.Add(Instantiate(buggy, transform.position, transform.rotation));
+        Debug.Log(bug.GetComponent<ClickBug>().bugKilled);
+        //audioSource.PlayOneShot(ErrorMusic, volume);
+        numberOfBugs = (GameObject.FindGameObjectsWithTag("Bug").Length)/2;
+        Debug.Log("amount of bugs on screen: " + numberOfBugs);
+
     }
 }

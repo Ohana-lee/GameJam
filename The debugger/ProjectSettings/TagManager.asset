@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Wall
+  - Bug
   layers:
   - Default
   - TransparentFX
@@ -39,6 +40,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: bug
+    uniqueID: 1544416085
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

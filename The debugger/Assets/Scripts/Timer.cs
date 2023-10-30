@@ -22,6 +22,7 @@ public class Timer : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip ErrorMusic;
     public float volume;
+    public TodoController todocontroller;
 
     // Start is called before the first frame update
     void Start()
@@ -76,7 +77,7 @@ public class Timer : MonoBehaviour
         if (((int)Timer.currentTime % 10 == 0) && (!isShowing))
         {
             //collider.GetComponent<PlayerController>().enabled = false;
-            //QuestionMgr.Instance.Show(); //to call the popup questions
+            QuestionMgr.Instance.Show(); //to call the popup questions
             audioSource.PlayOneShot(ErrorMusic, volume);
             //audioSource.Play();
             isShowing = true;
@@ -89,6 +90,16 @@ public class Timer : MonoBehaviour
         {
             // load game over scene
             //SceneManager.LoadScene("Game Over");
+            if (todocontroller.workDone)
+            {
+                //go to good end
+                //SceneManager.LoadScene("Game Over");
+            }
+            else
+            {
+                //go to bad end;
+                //SceneManager.LoadScene("Game Over");
+            }
         }
     }
 }
