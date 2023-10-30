@@ -374,6 +374,7 @@
 "Assets/Scripts/BugSpawner.cs"
 "Assets/Scripts/ClickBug.cs"
 "Assets/Scripts/EventManager.cs"
+"Assets/Scripts/GlitchEffect.cs"
 "Assets/Scripts/PanelTrigger.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/Popup Questions/QuestionControl.cs"

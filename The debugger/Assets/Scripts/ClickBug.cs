@@ -9,6 +9,7 @@ public class ClickBug : MonoBehaviour
     private BugMovement bugMovement;
     public TodoController todocontroller;
     public float volume;
+    public bool bugKilled;
     //public int KCount = 0;
 
 
@@ -41,6 +42,7 @@ public class ClickBug : MonoBehaviour
         //eventManager.ExecuteEvent(bugMovement.projectileCode, this.transform.position);
 
         Destroy(this.gameObject);
-        todocontroller.bugKilled = true;
+        //todocontroller.bugKilled = true;
+        bugKilled = true;
     }
 }
