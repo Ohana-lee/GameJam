@@ -38,15 +38,24 @@ public class BugSpawner : MonoBehaviour
         intensity = Random.Range(0, 1);
         fIntensity = Random.Range(0, 1);
         cIntensity = Random.Range(0, 1);
-        if ((numberOfBugs == 4) || (numberOfBugs > 8))
+        int n = Random.Range(0, 37);
+        if (n%19 == 0)
+        {
+            camera.enabled = true;
+            //audioSource.PlayOneShot(GlitchMusic, volume);
+        }
+        else
+        {
+            camera.enabled = false;
+        }
+        if ( (numberOfBugs > 8))
         {
             //Desktop.GetComponent<GlitchEffect>().intensity = intensity;
             //Desktop.GetComponent<GlitchEffect>().flipIntensity = fIntensity;
             //Desktop.GetComponent<GlitchEffect>().colorIntensity = cIntensity;
             //Desktop.GetComponent<Camera>().SetActive(true);
+            
             camera.enabled = true;
-            audioSource.PlayOneShot(GlitchMusic, volume);
-            //camera.enabled = false;
         }
         else
         {
@@ -83,7 +92,7 @@ public class BugSpawner : MonoBehaviour
         
         list.Add(Instantiate(buggy, transform.position, transform.rotation));
         Debug.Log(bug.GetComponent<ClickBug>().bugKilled);
-        audioSource.PlayOneShot(ErrorMusic, volume);
+        //audioSource.PlayOneShot(ErrorMusic, volume);
         numberOfBugs = (GameObject.FindGameObjectsWithTag("Bug").Length)/2;
         Debug.Log("amount of bugs on screen: " + numberOfBugs);
 
