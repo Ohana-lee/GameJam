@@ -94,7 +94,7 @@ public class QuestionPanel : MonoBehaviour
     }*/
     IEnumerator _Close()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
         text_tip.gameObject.SetActive(false);
         gameObject.SetActive(false);
 

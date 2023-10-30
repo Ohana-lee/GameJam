@@ -19,6 +19,9 @@ public class Timer : MonoBehaviour
     [SerializeField] public Color32 endColour = new Color32(255, 0, 35, 255); //default red
     private Color32 timerColour;
     public bool isShowing;
+    public AudioSource audioSource;
+    public AudioClip ErrorMusic;
+    public float volume;
 
     // Start is called before the first frame update
     void Start()
@@ -70,10 +73,12 @@ public class Timer : MonoBehaviour
         }
 
         //Debug.Log("current time " + (int)Timer.currentTime);
-        if (((int)Timer.currentTime % 5 == 0) && (!isShowing))
+        if (((int)Timer.currentTime % 10 == 0) && (!isShowing))
         {
             //collider.GetComponent<PlayerController>().enabled = false;
-            //QuestionMgr.Instance.Show(); //to call the popup questions
+            QuestionMgr.Instance.Show(); //to call the popup questions
+            audioSource.PlayOneShot(ErrorMusic, volume);
+            //audioSource.Play();
             isShowing = true;
         }
 

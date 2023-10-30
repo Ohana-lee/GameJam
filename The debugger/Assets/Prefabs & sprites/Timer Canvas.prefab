@@ -255,3 +255,7 @@ MonoBehaviour:
   endColour:
     serializedVersion: 2
     rgba: 4280484095
+  isShowing: 0
+  audioSource: {fileID: 0}
+  ErrorMusic: {fileID: 8300000, guid: 8864556be79b92843afdbf23f4cc1383, type: 3}
+  volume: 0.5

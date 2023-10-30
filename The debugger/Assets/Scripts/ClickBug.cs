@@ -7,6 +7,7 @@ public class ClickBug : MonoBehaviour
 
     //[SerializeField] EventManager eventManager;
     private BugMovement bugMovement;
+    public float volume;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,7 @@ public class ClickBug : MonoBehaviour
     void OnMouseDown()
     {
         Debug.Log("clicked on projectile");
+        
 
         //eventManager.ExecuteEvent(bugMovement.projectileCode, this.transform.position);
 
