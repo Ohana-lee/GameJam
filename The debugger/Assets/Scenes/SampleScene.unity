@@ -988,6 +988,11 @@ MonoBehaviour:
   tick2: {fileID: 2122216817}
   tick3: {fileID: 1341410948}
   tick4: {fileID: 1675760191}
+  workDone: 0
+  a: 0
+  b: 0
+  c: 0
+  d: 0
 --- !u!1 &438389956
 GameObject:
   m_ObjectHideFlags: 0
@@ -2786,8 +2791,12 @@ PrefabInstance:
       objectReference: {fileID: 519420033}
     - target: {fileID: 7667471572040977992, guid: 8f4eed12cb4328c4d8297ff58f4c560f, type: 3}
       propertyPath: startingTime
-      value: 51
+      value: 41
       objectReference: {fileID: 0}
+    - target: {fileID: 7667471572040977992, guid: 8f4eed12cb4328c4d8297ff58f4c560f, type: 3}
+      propertyPath: todocontroller
+      value: 
+      objectReference: {fileID: 428817667}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f4eed12cb4328c4d8297ff58f4c560f, type: 3}
 --- !u!1 &1341410948

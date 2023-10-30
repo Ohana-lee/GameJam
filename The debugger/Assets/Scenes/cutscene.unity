@@ -272,6 +272,7 @@ MonoBehaviour:
   nextDialogue: {fileID: 740553237}
   Dooropened: {fileID: 8300000, guid: be51f354f5db0e243974166e6effd908, type: 3}
   audioSource: {fileID: 1157684966}
+  cutscene: 0
 --- !u!114 &46187223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -867,6 +868,7 @@ MonoBehaviour:
   nextDialogue: {fileID: 968599438}
   Dooropened: {fileID: 0}
   audioSource: {fileID: 1157684966}
+  cutscene: 0
 --- !u!114 &225564578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1346,6 +1348,7 @@ MonoBehaviour:
   nextDialogue: {fileID: 1445703252}
   Dooropened: {fileID: 0}
   audioSource: {fileID: 1157684966}
+  cutscene: 0
 --- !u!114 &335145438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1779,6 +1782,7 @@ MonoBehaviour:
   nextDialogue: {fileID: 473313607}
   Dooropened: {fileID: 0}
   audioSource: {fileID: 1157684966}
+  cutscene: 0
 --- !u!114 &473949763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2188,6 +2192,7 @@ MonoBehaviour:
   nextDialogue: {fileID: 1582594563}
   Dooropened: {fileID: 0}
   audioSource: {fileID: 1157684966}
+  cutscene: 0
 --- !u!114 &686248691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2296,6 +2301,7 @@ MonoBehaviour:
   nextDialogue: {fileID: 1518439891}
   Dooropened: {fileID: 0}
   audioSource: {fileID: 1157684966}
+  cutscene: 0
 --- !u!114 &716491657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2592,6 +2598,7 @@ MonoBehaviour:
   nextDialogue: {fileID: 0}
   Dooropened: {fileID: 0}
   audioSource: {fileID: 1157684966}
+  cutscene: 1
 --- !u!114 &759268464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3825,7 +3832,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: e2a90e21ba81abd4fa0d0934b5fd5aba, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.07
   m_Pitch: 1
@@ -5346,8 +5353,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1815124254}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.8749996, y: -2.2808325, z: 0}
-  m_LocalScale: {x: 13.626328, y: 13.626328, z: 13.626328}
+  m_LocalPosition: {x: 4.7045, y: 1.5398, z: 0}
+  m_LocalScale: {x: 13.389182, y: 13.775194, z: 13.626328}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1950295778}
@@ -6041,6 +6048,7 @@ MonoBehaviour:
   nextDialogue: {fileID: 1362547389}
   Dooropened: {fileID: 0}
   audioSource: {fileID: 1157684966}
+  cutscene: 0
 --- !u!114 &2052770703
 MonoBehaviour:
   m_ObjectHideFlags: 0

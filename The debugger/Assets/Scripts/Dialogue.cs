@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Dialogue : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class Dialogue : MonoBehaviour
     public GameObject nextDialogue;
     public AudioClip Dooropened;
     public AudioSource audioSource;
+    public bool cutscene = false;
     //public LevelProgression lvPro;
     
     private GameObject player;
@@ -98,6 +100,11 @@ public class Dialogue : MonoBehaviour
             {
                 gameObject.SetActive(false);
                 CharacPic.SetActive(false);
+                if (cutscene) { SceneManager.LoadScene("SampleScene"); }
+                else
+                {
+                    SceneManager.LoadScene("credit");
+                }
             }
         }
     }

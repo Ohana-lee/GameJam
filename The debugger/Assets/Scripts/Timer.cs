@@ -94,11 +94,12 @@ public class Timer : MonoBehaviour
             {
                 //go to good end
                 //SceneManager.LoadScene("Game Over");
+                SceneManager.LoadScene("Ending 1");
             }
             else
             {
                 //go to bad end;
-                //SceneManager.LoadScene("Game Over");
+                SceneManager.LoadScene("Ending");
             }
         }
     }
