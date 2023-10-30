@@ -1,0 +1,681 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1698702842635716, "dur":2267, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698702842637998, "dur":323, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1698702842638404, "dur":43, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1698702842638457, "dur":597, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1698702842639104, "dur":1330, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698702842640434, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698702843091974, "dur":249, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698702843092223, "dur":90, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698702843092313, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698702843092322, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698702843092344, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698702843092347, "dur":36, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698702843092383, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698702843092391, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698702843092405, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698702843092408, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698702843092419, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698702843092423, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698702843092435, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698702843092438, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698702843092448, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698702843092451, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698702843092461, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698702843092496, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698702843092538, "dur":3066, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1698702842639883, "dur":767, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842640651, "dur":6084, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842646748, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1698702842646883, "dur":373, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842647263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842690382, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1698702842692403, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1698702842692499, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842692585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842692925, "dur":3885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1698702842696879, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698702842696939, "dur":3832, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842700785, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842700801, "dur":2067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698702842702932, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698702842703006, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842703095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842703106, "dur":2320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698702842705475, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698702842705521, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842705676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842705687, "dur":2223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698702842708056, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698702842708134, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842708336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842708346, "dur":2308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698702842710723, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698702842710788, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842710864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842710874, "dur":3432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698702842714393, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698702842714464, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842714564, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842714573, "dur":4174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698702842718820, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698702842718889, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842718996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842719006, "dur":2312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698702842721388, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698702842721439, "dur":324, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842721804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842721815, "dur":2084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698702842723959, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698702842724025, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842724117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842724127, "dur":3045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698702842727262, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698702842727347, "dur":373, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842727749, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702842727761, "dur":3231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698702842731038, "dur":359102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698702843090141, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702843090209, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698702843090224, "dur":1636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698702843091935, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1698702843091937, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842639719, "dur":852, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842640571, "dur":6167, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842646748, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1698702842646899, "dur":417, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842647325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842690417, "dur":3893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1698702842694384, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842694447, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842694575, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842695253, "dur":6597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842701918, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842702014, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842702138, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842702192, "dur":2559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842704813, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842704877, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842705096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842705106, "dur":1978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842707151, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842707212, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842707278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842707288, "dur":2803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842710155, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842710212, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842710288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842710298, "dur":2166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842712535, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842712601, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842712686, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842712713, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842714664, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842714725, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842714975, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842714988, "dur":4393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842719486, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842719548, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842719766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842719777, "dur":2602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842722456, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842722518, "dur":256, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842722783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842722794, "dur":3923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842726781, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842726845, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842726974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842726984, "dur":3811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842730854, "dur":159459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842890314, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842890407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842890453, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842891713, "dur":94232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842985946, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842986030, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842986069, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698702842987374, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/level4" }}
+,{ "pid":12345, "tid":2, "ts":1698702842987454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842987463, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/level4" }}
+,{ "pid":12345, "tid":2, "ts":1698702842989041, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1698702842989099, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842989108, "dur":2050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1698702842991211, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1698702842991278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842991286, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1698702842992811, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1698702842992875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698702842992883, "dur":1457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1698702842994396, "dur":97576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842639592, "dur":892, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842640488, "dur":6242, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842646748, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1698702842646753, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842646852, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1698702842646855, "dur":228, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842647088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842688350, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1698702842689840, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842689918, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842689980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842689988, "dur":26493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842716566, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842716629, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842716816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842716825, "dur":2509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842719395, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842719452, "dur":306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842719766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842719777, "dur":3229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842723080, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842723138, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842723214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842723225, "dur":2510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842725804, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842725965, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842726155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842726168, "dur":2734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842728968, "dur":144412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842873380, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842873479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842873503, "dur":1426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842874983, "dur":42899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842917883, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842917966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842917977, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842919086, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842919132, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842919183, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842919192, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842920318, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842920365, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842920422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842920431, "dur":2380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842922860, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842922913, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842922970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842923049, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842924159, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842924206, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842924271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842924281, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842925827, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842925877, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842925930, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842925940, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842927719, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842927772, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842927827, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842927837, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842929373, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842929420, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842929472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842929482, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842930590, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842930652, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842930700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842930778, "dur":1042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842931875, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842931921, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842931973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842931982, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842933074, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842933124, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842933183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842933193, "dur":1647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842934890, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842934938, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842934993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842935017, "dur":1426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842936502, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842936551, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842936630, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842936657, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842938081, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842938132, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842938236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842938247, "dur":2371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842940685, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842940734, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842940792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842940804, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842941979, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842942025, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842942166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842942175, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842943459, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842943511, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842943563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842943573, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842944733, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842944787, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842944844, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702842944852, "dur":3502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702842948404, "dur":107519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702843055924, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702843056007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698702843056019, "dur":1389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698702843057464, "dur":34511, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842639698, "dur":826, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842640525, "dur":6215, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842646748, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1698702842646982, "dur":349, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842647338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842691040, "dur":4199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1698702842695406, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842695556, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842695659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842695703, "dur":8298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842704062, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842704122, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842704184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842704194, "dur":2758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842707150, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842707548, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842707743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842707753, "dur":2127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842709944, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842710014, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842710265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842710279, "dur":2911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842713258, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842713324, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842713406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842713416, "dur":2456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842715936, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842716001, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842716144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842716154, "dur":2107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842718339, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842718548, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842718630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842718640, "dur":3512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842722434, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842722665, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842722771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842722781, "dur":1856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842724700, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842724762, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842724878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842724888, "dur":2358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842727309, "dur":70084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842797394, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842797504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842797515, "dur":1658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842799232, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842799292, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842799366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842799378, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842800444, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842800489, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842800542, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842800558, "dur":1610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842802219, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842802271, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842802355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842802366, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842803468, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842803514, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842803565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842803574, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842804759, "dur":89760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842894520, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842894611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702842894623, "dur":2920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702842897597, "dur":123384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702843020981, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702843021080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698702843021092, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698702843022625, "dur":69362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842639833, "dur":778, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842640611, "dur":6126, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842646748, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1698702842646893, "dur":346, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842647247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842689209, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1698702842690722, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger.exe" }}
+,{ "pid":12345, "tid":5, "ts":1698702842690792, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842690905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842690913, "dur":2015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger.exe" }}
+,{ "pid":12345, "tid":5, "ts":1698702842692990, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842693064, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842693162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842693434, "dur":7538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842701040, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842701112, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842701233, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842701248, "dur":2466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842703786, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842703890, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842704062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842704073, "dur":3769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842707908, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842707976, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842708055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842708064, "dur":2013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842710145, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842710214, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842710284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842710315, "dur":2561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842712955, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842713088, "dur":244, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842713374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842713385, "dur":1690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842715136, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842715194, "dur":250, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842715452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842715463, "dur":2219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842717887, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842717991, "dur":994, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842718993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842719004, "dur":3055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842722134, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842722211, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842722283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842722294, "dur":1754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842724143, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842724200, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842724284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842724292, "dur":2852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842727206, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842727271, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842727384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842727394, "dur":2809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842730273, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842730337, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842730400, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842730410, "dur":1640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842732115, "dur":1650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842733766, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842733864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842733918, "dur":1305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842735293, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842735357, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842735428, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842735444, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842737057, "dur":196310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842933367, "dur":304, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842933678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842933688, "dur":1403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842935140, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842935190, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842935291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842935300, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842936797, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842936850, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842937009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842937019, "dur":4167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842941238, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842941386, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842941565, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842941574, "dur":3039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842944664, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842944713, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842944768, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842944777, "dur":2136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842946996, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842947051, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842947110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842947122, "dur":1468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698702842948645, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1698702842948715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842948775, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1698702842950366, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1698702842950421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842950431, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1698702842951747, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":5, "ts":1698702842951803, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842951812, "dur":1204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":5, "ts":1698702842953069, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1698702842953125, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842953142, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1698702842954470, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":5, "ts":1698702842954525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842954535, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":5, "ts":1698702842955694, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1698702842955822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842955832, "dur":11288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1698702842967179, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1698702842967241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698702842967254, "dur":44060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1698702843011376, "dur":80615, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842640032, "dur":629, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842640661, "dur":6072, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842646748, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1698702842646907, "dur":280, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842647221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842688914, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1698702842690231, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1698702842690313, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842690395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842690403, "dur":2491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1698702842692963, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842693048, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842693163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842693463, "dur":8192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842701722, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842701832, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842702023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842702035, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842704536, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842704597, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842704722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842704733, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842706683, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842706742, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842706900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842706956, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842709371, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842709434, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842709543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842709555, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842711546, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842711608, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842711681, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842711691, "dur":2386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842714141, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842714218, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842714345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842714357, "dur":2016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842716465, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842716537, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842716638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842716680, "dur":3548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842720298, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842720357, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842720446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842720456, "dur":2765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842723293, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842723348, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842723435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842723478, "dur":3513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842727049, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842727110, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842727191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842727200, "dur":2875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842730153, "dur":150225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842880379, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842880477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702842880490, "dur":2457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702842883001, "dur":130459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702843013461, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702843013554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698702843013566, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698702843014965, "dur":77004, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842640192, "dur":479, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842640671, "dur":6075, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842646747, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1698702842646851, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842646945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842655982, "dur":3499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1698702842659546, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1698702842659611, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842659666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842660178, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1698702842661688, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1698702842661751, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842661814, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842661824, "dur":17424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1698702842679317, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1698702842679426, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842679504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842679693, "dur":1375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1698702842681144, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1698702842681213, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842681278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842681402, "dur":1446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1698702842682923, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1698702842682985, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842683045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842683057, "dur":11960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1698702842695160, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698702842695262, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842695396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842695408, "dur":6623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698702842702113, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698702842702193, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842702324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842702335, "dur":2728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698702842705129, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698702842705185, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842705324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842705334, "dur":2171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698702842707565, "dur":254049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698702842961615, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842961759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842961773, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698702842963413, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698702842963476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842963496, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698702842964916, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":7, "ts":1698702842964977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842964987, "dur":3551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":7, "ts":1698702842968617, "dur":384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698702842969011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842969023, "dur":1937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698702842971118, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1698702842971194, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842971216, "dur":5431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1698702842976707, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698702842976765, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842976775, "dur":1814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698702842978644, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1698702842978805, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842978866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842978877, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1698702842979970, "dur":1463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1698702842981433, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842981514, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842981524, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1698702842982681, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1698702842982739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842982748, "dur":2009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1698702842984823, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698702842984885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842984895, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698702842986749, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/level5" }}
+,{ "pid":12345, "tid":7, "ts":1698702842986809, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842986818, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/level5" }}
+,{ "pid":12345, "tid":7, "ts":1698702842987942, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1698702842987999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842988007, "dur":2822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1698702842990895, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1698702842990951, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842990960, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1698702842992456, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698702842992519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842992529, "dur":1470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1698702842994069, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1698702842994225, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842994296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698702842994306, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1698702842995468, "dur":96503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842640341, "dur":339, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842640680, "dur":6082, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842646764, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1698702842646855, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842646989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842656249, "dur":3215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1698702842659536, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1698702842659612, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842659675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842660171, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1698702842661578, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1698702842661644, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842661750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842661764, "dur":17337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1698702842679175, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1698702842679253, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842679334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842679985, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1698702842681224, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1698702842681288, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842681346, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842681411, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1698702842682938, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1698702842682986, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842683028, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842683036, "dur":1164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1698702842684280, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1698702842684342, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842684399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842684410, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1698702842685943, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842686018, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842686082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842686297, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842687674, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842687744, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842687806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842687895, "dur":5681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842693649, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842693718, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842693796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842694714, "dur":7258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842702064, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842702140, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842702329, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842702339, "dur":5627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842708033, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842708103, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842708173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842708215, "dur":2898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842711177, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842711244, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842711396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842711406, "dur":2288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842713763, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842713874, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842713945, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842713955, "dur":2085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842716094, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842716144, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842716197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842716205, "dur":2043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842718301, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842718423, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842718552, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842718562, "dur":2338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842720966, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842721032, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842721126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842721136, "dur":2610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842723814, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842723877, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842723960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842723970, "dur":2604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842726644, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842726709, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842726775, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842726785, "dur":4928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842731779, "dur":97148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842828927, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842829024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702842829036, "dur":2164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702842831363, "dur":189999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702843021362, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702843021544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698702843021555, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ohana/OneDrive/Documents/Repos/build 2/The debugger_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698702843023076, "dur":68903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698702843098559, "dur":3916, "ph":"X", "name": "ProfilerWriteOutput" }
+,

@@ -1684,7 +1684,7 @@
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "DefaultCompany\nThe debugger",
+      "WriteTextFilePayload": "calamity\nThe debugger",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"

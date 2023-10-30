@@ -155,8 +155,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1875580746}
-  m_Father: {fileID: 428817666}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -786,7 +786,7 @@ RectTransform:
   m_GameObject: {fileID: 399123098}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 5}
-  m_LocalScale: {x: 1, y: 1, z: 0.5}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1293159416}
@@ -794,7 +794,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -428, y: 363}
+  m_AnchoredPosition: {x: -205, y: 184}
   m_SizeDelta: {x: 714.3, y: 94.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &399123101
@@ -817,8 +817,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u53E3 Answer 1 Questtion\n\n\u53E3 Answer 2 Questtions\n\n\u53E3 Answer
-    3 Questtion\n\n\u53E3 Answer 4 Questions"
+  m_text: "\u53E3 Answer 1 Questtion\n\n\u53E3 Answer 2 Questions\n\n\u53E3 Answer
+    3 Questions\n\n\u53E3 Answer 4 Questions"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d95728078f11d4ba5b0c7969d9f9ddd9, type: 2}
   m_sharedMaterial: {fileID: 7178984061442809447, guid: d95728078f11d4ba5b0c7969d9f9ddd9, type: 2}
@@ -962,8 +962,7 @@ Transform:
   m_LocalPosition: {x: 0.83385265, y: -0.034641232, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 36103259}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1172,7 +1171,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &498075337
 GameObject:
@@ -1499,7 +1498,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 658, y: -776}
+  m_AnchoredPosition: {x: 456, y: -413}
   m_SizeDelta: {x: 714.3, y: 94.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &651874293
@@ -1571,8 +1570,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2123,6 +2122,18 @@ PrefabInstance:
     - target: {fileID: 3146456698702370706, guid: cfa99a089045f924183edcf5caa39a77, type: 3}
       propertyPath: m_SizeDelta.y
       value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146456698702370706, guid: cfa99a089045f924183edcf5caa39a77, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146456698702370706, guid: cfa99a089045f924183edcf5caa39a77, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146456698702370706, guid: cfa99a089045f924183edcf5caa39a77, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3146456698702370706, guid: cfa99a089045f924183edcf5caa39a77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2771,11 +2782,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1048677742586035039, guid: 8f4eed12cb4328c4d8297ff58f4c560f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 2177
+      value: 304
       objectReference: {fileID: 0}
     - target: {fileID: 1048677742586035039, guid: 8f4eed12cb4328c4d8297ff58f4c560f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -198
+      value: -172
       objectReference: {fileID: 0}
     - target: {fileID: 7667471572040977992, guid: 8f4eed12cb4328c4d8297ff58f4c560f, type: 3}
       propertyPath: timer
@@ -2791,7 +2802,7 @@ PrefabInstance:
       objectReference: {fileID: 519420033}
     - target: {fileID: 7667471572040977992, guid: 8f4eed12cb4328c4d8297ff58f4c560f, type: 3}
       propertyPath: startingTime
-      value: 41
+      value: 81
       objectReference: {fileID: 0}
     - target: {fileID: 7667471572040977992, guid: 8f4eed12cb4328c4d8297ff58f4c560f, type: 3}
       propertyPath: todocontroller
@@ -2881,7 +2892,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1438076016 stripped
 MonoBehaviour:
@@ -3105,7 +3116,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1725440943 stripped
 MonoBehaviour:
@@ -3351,7 +3362,7 @@ RectTransform:
   m_GameObject: {fileID: 1875580745}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 36103259}
@@ -3359,7 +3370,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -335.13, y: 356}
+  m_AnchoredPosition: {x: -335.13, y: 241}
   m_SizeDelta: {x: 670.2554, y: 129.0029}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1875580747
@@ -4045,7 +4056,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2129587615
 GameObject:
