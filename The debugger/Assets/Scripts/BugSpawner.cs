@@ -9,7 +9,8 @@ public class BugSpawner : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip ErrorMusic;
     public float volume;
-    private int i = 6;
+    public GameObject bug;
+    //private int i = 6;
 
 
     // Start is called before the first frame update
@@ -57,7 +58,7 @@ public class BugSpawner : MonoBehaviour
     void Spawn()
     {
         //Debug.Log("Are you ever here?");
-        Instantiate(buggy, transform.position, transform.rotation);
+        bug = Instantiate(buggy, transform.position, transform.rotation);
         audioSource.PlayOneShot(ErrorMusic, volume);
     }
 }

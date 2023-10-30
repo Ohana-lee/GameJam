@@ -76,7 +76,7 @@ public class Timer : MonoBehaviour
         if (((int)Timer.currentTime % 10 == 0) && (!isShowing))
         {
             //collider.GetComponent<PlayerController>().enabled = false;
-            QuestionMgr.Instance.Show(); //to call the popup questions
+            //QuestionMgr.Instance.Show(); //to call the popup questions
             audioSource.PlayOneShot(ErrorMusic, volume);
             //audioSource.Play();
             isShowing = true;

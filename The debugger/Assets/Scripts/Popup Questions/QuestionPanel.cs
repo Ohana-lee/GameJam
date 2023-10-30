@@ -45,6 +45,7 @@ public class QuestionPanel : MonoBehaviour
     public int BossQuestionCount;
     public int CurrentIndex;
     public Timer timer;
+    public int QCount = 0;
 
     public void Awake()
     {
@@ -69,6 +70,7 @@ public class QuestionPanel : MonoBehaviour
                         //update the TO-DO List
                         //Timer.currentTime += 10f;
                         isCorrect = true;
+                        QCount = QCount + 1;
                     }
                     else
                     {

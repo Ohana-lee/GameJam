@@ -7,7 +7,10 @@ public class ClickBug : MonoBehaviour
 
     //[SerializeField] EventManager eventManager;
     private BugMovement bugMovement;
+    public TodoController todocontroller;
     public float volume;
+    //public int KCount = 0;
+
 
     // Start is called before the first frame update
     void Start()
@@ -38,5 +41,6 @@ public class ClickBug : MonoBehaviour
         //eventManager.ExecuteEvent(bugMovement.projectileCode, this.transform.position);
 
         Destroy(this.gameObject);
+        todocontroller.bugKilled = true;
     }
 }

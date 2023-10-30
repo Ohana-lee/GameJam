@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33b25004eb782734faff496e835b11f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Buggy: {fileID: 0}
+  Buggy: {fileID: 8419974477532271918}
   minTras: -8
   maxTras: 9
   force: {x: 0, y: 0, z: 0}
@@ -164,9 +164,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92b92c0550f9ba848bf70e13a4df0bab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 6427012260925537695}
-  ErrorMusic: {fileID: 8300000, guid: 8864556be79b92843afdbf23f4cc1383, type: 3}
-  volume: 0
+  todocontroller: {fileID: 0}
+  volume: 0.5
 --- !u!82 &6427012260925537695
 AudioSource:
   m_ObjectHideFlags: 0
@@ -359,8 +358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92b92c0550f9ba848bf70e13a4df0bab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 5243785733665275276}
-  ErrorMusic: {fileID: 8300000, guid: 8864556be79b92843afdbf23f4cc1383, type: 3}
+  todocontroller: {fileID: 0}
   volume: 0.5
 --- !u!114 &7828729594810105563
 MonoBehaviour:
